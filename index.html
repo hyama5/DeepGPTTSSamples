@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Statistical Parametric Speech Synthesis Using Deep Gaussian Processes</title>
+<!-- <style>
+</style>
+ -->
+</head>
+<body>
+<center>
+<h2><font color=#0000FF>Statistical Parametric Speech Synthesis Using Deep Gaussian Processes</font></h2>
+
+<table border=1 align=center>
+<tr><th width=100>utterance</th><th width=100>VOC</th><th width=100>PIC-GP</th><th width=100>DNN</th><th width=100>DGP</th></tr>
+
+<tr align=center><td>A</td>
+    <td><audio controls="controls" ><source src="./wav/voc/F009_ATR503_J01_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/pic/F009_ATR503_J01_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dnn/F009_ATR503_J01_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp/F009_ATR503_J01_T01.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>B</td>
+    <td><audio controls="controls" ><source src="./wav/voc/F009_ATR503_J26_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/pic/F009_ATR503_J26_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dnn/F009_ATR503_J26_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp/F009_ATR503_J26_T01.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>C</td>
+    <td><audio controls="controls" ><source src="./wav/voc/F009_BTEC_00115_T03.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/pic/F009_BTEC_00115_T03.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dnn/F009_BTEC_00115_T03.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp/F009_BTEC_00115_T03.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>D</td>
+    <td><audio controls="controls" ><source src="./wav/voc/F009_MAINICHIR_00224_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/pic/F009_MAINICHIR_00224_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dnn/F009_MAINICHIR_00224_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp/F009_MAINICHIR_00224_T01.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>E</td>
+    <td><audio controls="controls" ><source src="./wav/voc/F009_NIKKEIR_00038_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/pic/F009_NIKKEIR_00038_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dnn/F009_NIKKEIR_00038_T01.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp/F009_NIKKEIR_00038_T01.wav" autoplay/>x</audio></td>
+</tr>
+
+
+</table>
+
+
+<br><br>
+
+<table border=1 width=600>
+<tr><th width=100>Methods</th><th>Meaning</th></tr>
+<tr align=center><td>VOC</td><td align=left style="padding-left:10px">Vocoder speech by STRAIGHT.</td></tr>
+<tr align=center><td>PIC-GP</td><td align=left style="padding-left:10px">HMM-Gaussian process hybrid model using partially independent conditional approximation.</td></tr>
+<tr align=center><td>DNN</td><td align=left style="padding-left:10px">Deep neural network.</td></tr>
+<tr align=center><td>DGP</td><td align=left style="padding-left:10px">Proposed method based on deep Gaussian processes.</td></tr>
+</table>
+<br><br>
+
+</center>
+</body>
+</html>
